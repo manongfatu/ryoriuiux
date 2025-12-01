@@ -3,9 +3,10 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import type { Route } from 'next';
 
 type NavItem = {
-  href: string;
+  href: Route;
   label: string;
   icon: JSX.Element;
   ariaLabel?: string;
@@ -62,7 +63,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                   <Link
                     href={item.href}
                     className="side-link"
-                    aria-current={pathname.startsWith(item.href) ? 'page' : undefined}
+                    aria-current={pathname.startsWith(item.href as string) ? 'page' : undefined}
                   >
                     {item.icon}
                     <span className="side-text">{item.label}</span>

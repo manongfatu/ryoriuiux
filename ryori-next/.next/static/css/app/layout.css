@@ -189,7 +189,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 960px) { .sidebar-close { display: inline-grid; } }
 
 /* Hide mobile-only profile on desktop by default */
-.mobile-profile { display: none; }
+@media (min-width: 961px) { .mobile-profile { display: none; } }
 
 /* Top bar */
 .dash-topbar { grid-column: 2 / -1; display: flex; align-items: center; justify-content: space-between; gap: 12px; height: var(--topbar-h); padding: 0 18px; background: #fff; border-bottom: var(--border); position: -webkit-sticky; position: sticky; top: 0; z-index: 40; }

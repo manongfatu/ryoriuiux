@@ -1,4 +1,4 @@
-// File: /Users/jleuwe/Downloads/Ryori Website/ryori-next/app/dashboard/page.tsx
+// File: /Users/jleuwe/Downloads/ryoriuiux/ryori-next/app/dashboard/page.tsx
 import * as entry from '../../../../app/dashboard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

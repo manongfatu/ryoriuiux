@@ -1,4 +1,4 @@
-// File: /Users/jleuwe/Downloads/Ryori Website/ryori-next/app/layout.tsx
+// File: /Users/jleuwe/Downloads/ryoriuiux/ryori-next/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

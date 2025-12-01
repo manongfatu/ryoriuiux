@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ryori – Effortless QR Ordering for Restaurants</title>
+    <meta name="description" content="Ryori is an intuitive QR-code restaurant ordering system. Scan → Order → Enjoy. Manage menus, branches, inventory, and more." />
+    <meta name="theme-color" content="#C8102E" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-elevate>
+      <div class="container nav">
+        <a href="#" class="brand" aria-label="Ryori home">
+          <img class="brand-mark" src="/assets/logo-mark.svg" alt="Ryori logo" />
+          <span class="brand-text">Ryori</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+            <span class="sr-only">Toggle navigation</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+          </button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#advocacy">Advocacy</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a class="btn btn--ghost" href="#contact">Contact</a></li>
+            <li><a class="btn" href="#contact">Request a Demo</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero section--tight" aria-labelledby="hero-title">
+        <div class="container grid grid--2">
+          <div class="stack hero-copy reveal">
+            <h1 id="hero-title" class="display">Effortless QR Ordering Revolution</h1>
+            <p class="lead">Elevate your restaurant with our intuitive QR code ordering system. <strong>Scan → Order → Enjoy</strong>.</p>
+            <div class="actions">
+              <a class="btn btn--lg" href="#contact">Get Started</a>
+              <a class="btn btn--lg btn--ghost" href="#contact">Request a Demo</a>
+            </div>
+            <ul class="hero-bullets">
+              <li>No downloads for diners</li>
+              <li>Faster table turnover</li>
+              <li>Real‑time order tracking</li>
+            </ul>
+          </div>
+          <div class="hero-media reveal">
+            <div class="device">
+              <div class="device-screen">
+                <div class="qr">
+                  <!-- Simple QR motif -->
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="ticket">
+                  <div class="ticket-line"></div>
+                  <div class="ticket-line"></div>
+                  <div class="ticket-line short"></div>
+                </div>
+              </div>
+            </div>
+            <p class="caption">Built for busy restaurants. Loved by diners.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it Works -->
+      <section id="how" class="section" aria-labelledby="how-title">
+        <div class="container">
+          <h2 id="how-title" class="eyebrow">How it works</h2>
+          <div class="steps grid grid--3">
+            <article class="card reveal">
+              <div class="badge">1</div>
+              <h3>Scan the QR code</h3>
+              <p>Guests scan a table QR to open your live, up‑to‑date menu.</p>
+            </article>
+            <article class="card reveal">
+              <div class="badge">2</div>
+              <h3>Place your order</h3>
+              <p>Customize items, combine orders per table, and submit with ease.</p>
+            </article>
+            <article class="card reveal">
+              <div class="badge">3</div>
+              <h3>Enjoy the meal</h3>
+              <p>Your team gets instant notifications while diners track status in real‑time.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="section section--alt" aria-labelledby="features-title">
+        <div class="container">
+          <h2 id="features-title" class="eyebrow">Features</h2>
+          <div class="grid grid--3 features">
+            <article class="feature reveal">
+              <h3>Customer Order Tracking</h3>
+              <p>Transparent order states keep diners informed and reduce follow‑ups.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Combine Orders Per Table</h3>
+              <p>Merge multiple device orders into a single table ticket.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Manage Orders Effortlessly</h3>
+              <p>Kitchen‑ready views, filters, and prompts for peak service.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Unlimited QR Generation</h3>
+              <p>Create and assign unique QR codes without limits.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Unlimited Menu Management</h3>
+              <p>Update items, options, and availability in seconds.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Menu Categories</h3>
+              <p>Organize menus with flexible, unlimited categories.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Employee Management</h3>
+              <p>Control access and roles for staff accounts.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Multiple Branches</h3>
+              <p>Operate several locations from one dashboard.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Call Waiter Notification</h3>
+              <p>Guests can tap to request assistance from the table.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Order Prompt Notification</h3>
+              <p>Instant alerts for new and updated orders.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Inventory Management</h3>
+              <p>Track stock and prevent out‑of‑stock surprises.</p>
+            </article>
+            <article class="feature reveal">
+              <h3>Customer Survey</h3>
+              <p>Capture quick feedback after every visit.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advocacy -->
+      <section id="advocacy" class="section" aria-labelledby="advocacy-title">
+        <div class="container">
+          <h2 id="advocacy-title" class="eyebrow">Our Advocacy</h2>
+          <div class="grid grid--2 advocacy">
+            <article class="advocacy-item reveal">
+              <div class="num">1</div>
+              <div class="content">
+                <h3>Empowering Local Restaurants</h3>
+                <p>Affordable tech built for Filipino entrepreneurs.</p>
+              </div>
+            </article>
+            <article class="advocacy-item reveal">
+              <div class="num">2</div>
+              <div class="content">
+                <h3>Eat to Earn</h3>
+                <p>Where both customers and restaurants benefit.</p>
+              </div>
+            </article>
+            <article class="advocacy-item reveal">
+              <div class="num">3</div>
+              <div class="content">
+                <h3>Smart, Sustainable Dining</h3>
+                <p>Paperless, cashless, and AI‑powered experience.</p>
+              </div>
+            </article>
+            <article class="advocacy-item reveal">
+              <div class="num">4</div>
+              <div class="content">
+                <h3>Zero Waste Kitchen</h3>
+                <p>Helping restaurants cook smart and reduce waste.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roadmap -->
+      <section id="roadmap" class="section section--alt" aria-labelledby="roadmap-title">
+        <div class="container">
+          <div class="roadmap-head">
+            <h2 id="roadmap-title" class="eyebrow">Our Journey Roadmap</h2>
+            <span class="tag">2030 Public Launch</span>
+          </div>
+          <ol class="timeline" role="list">
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2023</div>
+              <div class="timeline-card">
+                <h3>Foundation and MVP Build</h3>
+                <ul>
+                  <li>Founded Alttos Innovations Corp and the Ryori project</li>
+                  <li>Built MVP with web and QR code ordering</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2024</div>
+              <div class="timeline-card">
+                <h3>Validation and Expansion</h3>
+                <ul>
+                  <li>Launched mobile app with Eat2Earn rewards</li>
+                  <li>Conducted restaurant trials and won hackathon</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2025</div>
+              <div class="timeline-card">
+                <h3>Redesign and Improvement</h3>
+                <ul>
+                  <li>Enhanced features, pricing, and infrastructure</li>
+                  <li>Built inventory system and offline mode</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2026</div>
+              <div class="timeline-card">
+                <h3>Market Reach and Pre‑Seed Stage</h3>
+                <ul>
+                  <li>Started market rollout and raised pre‑seed investment</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2027</div>
+              <div class="timeline-card">
+                <h3>Scaling Up</h3>
+                <ul>
+                  <li>Target 1K establishments</li>
+                  <li>Series A investment</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2028</div>
+              <div class="timeline-card">
+                <h3>Nationwide Growth</h3>
+                <ul>
+                  <li>Target 10K establishments</li>
+                  <li>Series B investment</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2029</div>
+              <div class="timeline-card">
+                <h3>Wider Expansion</h3>
+                <ul>
+                  <li>Target 20K establishments</li>
+                  <li>Series C investment</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <div class="timeline-year">2030</div>
+              <div class="timeline-card">
+                <h3>Public Launch</h3>
+                <ul>
+                  <li>Open to the public with nationwide coverage</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CTA / Contact -->
+      <section id="contact" class="section cta-band" aria-labelledby="cta-title">
+        <div class="container grid grid--2">
+          <div>
+            <h2 id="cta-title">Whether you are a restaurant owner, investor, or developer—let’s talk.</h2>
+            <p>Let’s build the future of dining in the Philippines together.</p>
+          </div>
+          <div class="stack">
+            <a class="btn btn--lg" href="mailto:alttosinnovationscorp@gmail.com">Contact Us</a>
+            <div class="contact-list">
+              <a href="mailto:alttosinnovationscorp@gmail.com" class="contact-item" aria-label="Email"><span>alttosinnovationscorp@gmail.com</span></a>
+              <a href="tel:+639852881191" class="contact-item" aria-label="Phone"><span>(+63) 985-288-1191</span></a>
+              <a href="https://ryoriapp.com" class="contact-item" target="_blank" rel="noopener">ryoriapp.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer">
+        <p class="tagline">Ryori. The Future of Dining Starts Here.</p>
+        <p class="fineprint">© <span id="year"></span> Ryori Systems by Alttos Innovations. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+

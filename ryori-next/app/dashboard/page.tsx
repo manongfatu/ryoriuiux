@@ -7,12 +7,12 @@ export default function DashboardHome() {
     <div className="dash-content">
       {/* Store header */}
       <section className="dash-section" aria-labelledby="store-title">
-        <div className="section-head" style={{ justifyContent: 'center' }}>
-          <div style={{ textAlign: 'center' }}>
+        <div className="section-head">
+          <div>
             <h2 id="store-title" className="section-title">Ryori Store</h2>
             <p className="section-subtitle">Mintal Branch</p>
           </div>
-          <p className="section-subtitle" aria-hidden="true" style={{ visibility: 'hidden' }}>{today}</p>
+          <p className="section-subtitle">{today}</p>
         </div>
         <div className="grid grid--4">
           <article className="kpi kpi--brand" aria-label="Total menus">

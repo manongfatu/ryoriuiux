@@ -55,16 +55,19 @@ export default function DashboardHome() {
             </div>
             <div className="summary-grid">
               {[
-                {label: 'Draft', color: 'draft'},
-                {label: 'Cooking', color: 'cooking'},
-                {label: 'Served', color: 'served'},
-                {label: 'Waiting for Payment', color: 'waiting'},
-                {label: 'Done', color: 'done'},
-                {label: 'Cancelled', color: 'cancelled'}
+                { label: 'Draft', color: 'draft' },
+                { label: 'Cooking', color: 'cooking' },
+                { label: 'Served', color: 'served' },
+                { label: 'Waiting for Payment', color: 'waiting' },
+                { label: 'Done', color: 'done' },
+                { label: 'Cancelled', color: 'cancelled' }
               ].map(item => (
                 <div className={`summary-item summary--${item.color}`} key={item.label}>
+                  <div className="summary-left">
+                    <span className="summary-dot" aria-hidden="true" />
+                    <div className="summary-label">{item.label}</div>
+                  </div>
                   <div className="summary-value">0</div>
-                  <div className="summary-label">{item.label}</div>
                 </div>
               ))}
             </div>
